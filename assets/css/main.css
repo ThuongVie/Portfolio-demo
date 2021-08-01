@@ -1,0 +1,167 @@
+.sidebar{
+    position: fixed;
+    width: 300px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar-avata--img{
+    padding: 24px 16px 0px;
+}
+
+.sidebar-avata--img img{ 
+    width: 45%;
+    border-radius:4px ;
+}
+
+.sidebar-heading{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 36px;
+    padding-left: 16px;
+}
+
+.sidebar-sub-heading {
+    font-size: 1.5rem;
+    color: rgb(117, 117, 117);
+    font-weight: 200;
+    padding-left: 16px;
+}
+
+.sidebar-menu--list{
+    margin-top: 16px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.sidebar-menu__item{
+    
+}
+
+.sidebar-menu__item a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-weight: 300;
+    line-height: 2.2rem;
+}
+
+.sidebar-menu__item .sidebar-menu__item--portfolio {
+    color: #009688;
+}
+
+.sidebar-menu__item a i {
+    width: 10%;
+    font-size: 1.4rem;
+}
+
+.sidebar-menu__item:hover a{
+    background: #ccc;
+    color: var(--black-color);
+}
+
+.sidebar-social {
+    padding: 12px 16px 0px;
+    font-size: 1.7rem;
+}
+
+/* Main */
+
+.main{
+    margin-left: 300px;
+    background-color: var(--background-color);
+}
+
+.container{
+    padding: 0px 16px;
+}
+/* Header */
+
+.header{ 
+    border-bottom: 6px solid #ccc;
+}
+
+.header-name{
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.header-filter{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.header-filter__name{
+    
+}
+
+.header-filter__list{
+    display: flex;
+}
+
+.header-filter__item{
+    
+}
+
+.header-filter__item-link{
+    display: block;
+    line-height: 2.2rem;
+    margin-right: 4px;
+    padding: 8px 16px;
+    color: var(--black-color);
+    background: var(--white-color);
+}
+
+.header-filter__item-link-bgblack{
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.header-filter__item-link:hover{
+    background: #ccc;
+    color: var(--black-color);
+}
+
+.header-filter__item-icon-art , 
+.header-filter__item-icon-photo{
+    font-size: 1.7rem;
+}
+
+/* Place img */
+
+.place-list{
+    
+}
+
+.place-list__item{
+    margin-top: 16px;
+}
+
+.place-list__img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.place-list__item-about{
+    padding: 16px;
+    background: var(--white-color);
+}
+
+.place-list__item-name{
+    margin-top: 0 ;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.place-list__item-paragrgh{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
